@@ -1,13 +1,9 @@
-h1 {
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
-
-h2 {
-    font-family: 'Hind Madurai', sans-serif;
+h1, h2{
+    font-family: 'Kanit', sans-serif;
 }
 
 h3 {
-    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /*Background Image*/
 @media (min-width: 800px) {
@@ -26,7 +22,7 @@ h3 {
     position: relative;
     text-align: center;
     overflow: hidden;
-    background-color: #041324;
+    background-color: #141414;
 }
 
 /*Header*/
@@ -38,7 +34,7 @@ h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, .50); 
+    background: rgba(0, 0, 0, .10); 
 }
 
 @media (min-width: 800px) {
@@ -47,10 +43,11 @@ h3 {
     }
 
     .header {
-        border: 2px solid #0c5e99;
+        border: 2px solid #FDDF55;
     }
 
     .header p{
+        font-family: 'Kanit', sans-serif;
         font-size: 24px;
     }
 
@@ -68,12 +65,12 @@ h3 {
         right: 0;
         left: 0;
         transform: translateY(-40%);
-        color: #0c5e99;
+        color: #D83638;
         padding: 0;
     }
 
     .intro li{
-        font-size: 50px;
+        font-size: 48px;
     }
 }
 
@@ -100,7 +97,7 @@ h3 {
         right: 0;
         left: 0;
         transform: translateY(-110%);
-        color: #0c5e99;
+        color: #D83638;
         padding: 0;
     }
 
@@ -127,16 +124,15 @@ h3 {
 }
 
 .intro a{
-    color: #0c5e99;
+    color: #D83638;
 }
 
 .intro a:hover{
-    color: #28c5e0;
+    color: #FDDF55;
 }
 /*Navigation Bar*/
 .nav-bar-ground {
-    background-color: #041324;
-    color: #28c5e0;
+    background-color: #121212;
 }
 
 .homeBar ul{
@@ -147,6 +143,7 @@ h3 {
 }
 
 .homeBar li{
+    font-family: 'Montserrat', sans-serif;
     display: inline;
     text-align: center;
     font-size: 24px;
@@ -155,18 +152,19 @@ h3 {
 }
 
 .homeBar a{
+    color: #25D3D6;
     text-decoration: none
 }
 
 .homeBar a:hover{
     text-decoration: none;
-    color: #28c5e0;
+    color: #316675;
 }
 
 /*About Me*/
 .about-me-ground {
-    background-color: #0c5e99;
-    color: #f7fcf8;
+    background-color: #121212;
+    color: #25D3D6;
     padding: 20px;
 }
 
@@ -174,10 +172,10 @@ h3 {
     margin-top: 10px;
     display: inline-block;
     text-decoration: none;
-    background-color: #041324;
+    background-color: #25D3D6;
     border-radius: 5px;
     padding: 10px 20px;
-    color: #f7fcf8;
+    color: #121212;
 }
 
 .buttonaboutme a:hover {
@@ -197,15 +195,15 @@ h3 {
     }
 }
 .project-ground {
-    background-color: #0c5e99;
-    color: #f7fcf8;
+    background-color: #121212;
+    color: #D83638;
 }
 
 .project-pad {
-    background-color: #041324;
+    background-color: #161616;
     border-radius: 0;
     padding: 10px;
-    color: #f7fcf8;
+    color: #FDDF55;
 }
 
 .project-pic {
@@ -216,17 +214,17 @@ h3 {
     margin-top: 10px;
     display: inline-block;
     text-decoration: none;
-    background-color: #0c5e99;
+    background-color: #25D3D6;
     border-radius: 5px;
     padding: 10px 20px;
-    color: #f7fcf8;
+    color: #121212;
 }
 
 .button a:hover {
     margin-top: 10px;
     display: inline-block;
     text-decoration: none;
-    background-color: #28c5e0;
+    background-color: #25D3D6;
     border-radius: 5px;
     padding: 10px 20px;
     color: #f7fcf8;
@@ -258,9 +256,11 @@ h3 {
 }
 
 .contact-background {
+    width: 100%;
     position: relative;
-    background: url('../images/brightness.jpg') no-repeat;
-    background-position: center 82%;
+    background: url('../images/swtargeting2.jpg') no-repeat;
+    background-position: center 50%;
+    background-color: #121212;
     color: #f7fcf8;
     font-size: 14px;
 } 
@@ -273,11 +273,11 @@ h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, .50); 
+    background: rgba(0, 0, 0, .10); 
 }
 /*Bottom Nav*/
 .bottom-nav-ground {
-    background-color: #041324;
+    background-color: #121212;
 }
 
 .bottom-nav ul{
@@ -294,9 +294,9 @@ h3 {
 }
 
 .bottom-nav a{
-    color: #0c5e99;
+    color: #D83638;
 }
 
 .bottom-nav a:hover{
-    color: #28c5e0;
+    color: #FDDF55;
 }
