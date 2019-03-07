@@ -1,4 +1,4 @@
-h1, h2{
+ h1, h2{
     font-family: 'Kanit', sans-serif;
 }
 
@@ -6,15 +6,21 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 /*Background Image*/
-@media (min-width: 800px) {
+@media (max-width: 448px) {
     .background-image {
-        max-height: 700px;
+        max-height: 250px;
     }
 }
 
-@media (max-width: 799px) {
+@media (min-width: 449px) and (max-width: 799px){
     .background-image {
-        max-height: 210px;
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 800px) {
+    .background-image {
+        max-height: 700px;
     }
 }
 
@@ -37,6 +43,75 @@ h3 {
     background: rgba(0, 0, 0, .10); 
 }
 
+@media (max-width: 450px) {
+    .header img{
+        border-radius: 50%;
+        margin-top: -10%;
+        max-height: 85px;
+        max-width: 85px;
+        height: 40%;
+        width: 40%;
+    }
+
+    .header h1{
+        font-size: 20px;
+    }
+
+    .header p{
+        font-size: 16px;
+    }
+
+    .hero-image {
+        top: 50%;
+        right: 0;
+        left: 0;
+        transform: translateY(-100%);
+        color: #D83638;
+        padding: 0;
+    }
+
+    .intro li{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 799px){
+    .hero-image{
+        position: absolute;
+    }
+
+    .header {
+        border: 2px solid #FDDF55;
+    }
+
+    .header p{
+        font-family: 'Kanit', sans-serif;
+        font-size: 16px;
+    }
+
+    .header img{
+        border-radius: 50%;
+        margin-top: -10%;
+        max-height: 100px;
+        max-width: 100px;
+        height: 40%;
+        width: 40%;
+    }
+
+    .hero-image {
+        top: 60%;
+        right: 0;
+        left: 0;
+        transform: translateY(-50%);
+        color: #D83638;
+        padding: 0;
+    }
+
+    .intro li{
+        font-size: 24px;
+    }
+}
+
 @media (min-width: 800px) {
     .hero-image{
         position: absolute;
@@ -53,11 +128,11 @@ h3 {
 
     .header img{
         border-radius: 50%;
-        margin-top: -5%;
+        margin-top: -10%;
         max-height: 250px;
         max-width: 250px;
-        height: 50%;
-        width: 50%;
+        height: 40%;
+        width: 40%;
     }
 
     .hero-image {
@@ -70,39 +145,7 @@ h3 {
     }
 
     .intro li{
-        font-size: 48px;
-    }
-}
-
-@media (max-width: 799px) {
-    .header img{
-        border-radius: 50%;
-        margin-top: -25%;
-        max-height: 100px;
-        max-width: 100px;
-        height: 40%;
-        width: 40%;
-    }
-
-    .header h1{
-        font-size: 16px;
-    }
-
-    .header p{
-        font-size: 12px;
-    }
-
-    .hero-image {
-        top: 50%;
-        right: 0;
-        left: 0;
-        transform: translateY(-110%);
-        color: #D83638;
-        padding: 0;
-    }
-
-    .intro li{
-        font-size: 16px;
+        font-size: 36px;
     }
 }
 
